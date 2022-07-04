@@ -13,4 +13,4 @@ RUN yum check-update; \
     yum -y install openldap-clients openldap-servers; \
     yum clean all
 
-ENTRYPOINT ["tail", "-f", "/dev/null"]
+CMD ["/usr/sbin/init"]
