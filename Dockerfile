@@ -1,7 +1,7 @@
 FROM centos:7
 
-ENV http_proxy http://9.196.117.29:3128
-ENV https_proxy http://9.196.117.29:3128
+#ENV http_proxy http://9.196.117.29:3128
+#ENV https_proxy http://9.196.117.29:3128
 
 ENV LANG en_US.UTF-8
 ENV LC_ALL en_US.UTF-8
